@@ -9,6 +9,7 @@ public class JEREMYTREJOSMURILLO_INVESTIGACION1 {
         int n = arreglo.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
+                
                 // Si el elemento actual es mayor al siguiente, los intercambia
                 if (arreglo[j] > arreglo[j + 1]) {
                     int temp = arreglo[j];
@@ -32,6 +33,7 @@ public class JEREMYTREJOSMURILLO_INVESTIGACION1 {
     }
 
     public static void main(String[] args) {
+        
         // Arreglo de ejemplo sin ordenar
         int[] numeros = {64, 34, 25, 12, 22, 11, 90};
 
